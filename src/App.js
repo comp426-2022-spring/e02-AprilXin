@@ -71,6 +71,17 @@ function App() {
       <form>
             <input type="text" id="a00" placeholder="a00" /><br/><br/>
             <input type="text" id="a01" placeholder="a01" /><br/><br/>
+            <input type="text" id="a02" placeholder="a02" /><br/><br/>
+            <input type="text" id="a03" placeholder="a03" /><br/><br/>
+            <input type="text" id="a04" placeholder="a04" /><br/><br/>
+            <input type="text" id="a05" placeholder="a05" /><br/><br/>
+            <input type="text" id="e01" placeholder="e01" /><br/><br/>
+            <input type="text" id="e02" placeholder="e02" /><br/><br/>
+            <input type="text" id="project" placeholder="Final Project" /><br/><br/>
+            <input type="text" id="q01" placeholder="Questionnaire 1" /><br/><br/>
+            <input type="text" id="qmid" placeholder="Midterm" /><br/><br/>
+            <input type="text" id="qfinal" placeholder="Final" /><br/><br/>
+            <input type="text" id="commits" placeholder="Commits" /><br/><br/>
             <button onClick={Add}>Add</button>
             <button onClick={Clear}>Clear</button>
             <label for="result"><b>Result:</b></label>
